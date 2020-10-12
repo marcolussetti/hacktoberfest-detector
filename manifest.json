@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Hacktoberfest Tag Detector",
+    "version": "1.0",
+    "description": "Detect whether the repository has opted into the 2020 Hacktoberfest.",
+    "icons": {
+        "96": "icons/icon-96.png",
+        "48": "icons/icon-48.png"
+    },
+    "permissions": [
+        "https://api.github.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://github.com/*"
+            ],
+            "js": [
+                "optindetector.js"
+            ]
+        }
+    ]
+}
