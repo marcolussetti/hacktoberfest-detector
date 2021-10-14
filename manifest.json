@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Hacktoberfest Opt-in Checker",
-    "version": "1.2.0",
+    "name": "Hacktoberfest Detector",
+    "version": "1.2.1",
     "description": "Detect whether the repository has opted into the 2021 Hacktoberfest.",
     "icons": {
         "96": "icons/icon-96.png",
