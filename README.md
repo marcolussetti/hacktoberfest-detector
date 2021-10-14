@@ -6,9 +6,9 @@ A very, very simple and very, very dumb Firefox & Chrome Add-On to check whether
 
 ### Firefox
 
-Addon is pending approval from Mozilla at the moment.
+Install from the Firefox Add-On Store: https://addons.mozilla.org/en-US/firefox/addon/hacktoberfest-detector/
 
-You can install it for now from https://github.com/marcolussetti/hacktoberfest-detector/releases/download/1.2.1/hacktoberfest_detector-1.2.1-an+fx.xpi
+Alternatively, you can install it any beta releases, if required by running the XPI file from the [Releases section](https://github.com/marcolussetti/hacktoberfest-detector/releases).
 
 ### Chrome / Chromium
 
