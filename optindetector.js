@@ -56,10 +56,14 @@ function isGithubProject() {
 if (isGithubProject()) {
     console.log("[Hacktoberfest Tag Detector] GitHub Project detected");
     document.addEventListener("keyup", function (e) {
-        var key = e.key || e.keyCode;
-        if (key === 'h' || key === 'KeyH' || key === 72) {
+        var eObj = window.event ? event : e
+        // var key = eObj.key || eObj.keyCode;
+        if (e.ctrlKey && e.key === 'h') {
             checkIfEnrolled()
         }
+        //if (key === 'h' || key === 'KeyH' || key === 72) {
+        //    checkIfEnrolled()
+        //}
     });
 } else {
     console.log("[Hacktoberfest Tag Detector] GitHub Project not detected");
