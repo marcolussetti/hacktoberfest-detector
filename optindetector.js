@@ -58,7 +58,7 @@ if (isGithubProject()) {
     document.addEventListener("keyup", function (e) {
         var eObj = window.event ? event : e
         // var key = eObj.key || eObj.keyCode;
-        if (e.ctrlKey && e.key === 'h') {
+        if (e.altKey && e.key === 'c') {
             checkIfEnrolled()
         }
         //if (key === 'h' || key === 'KeyH' || key === 72) {
