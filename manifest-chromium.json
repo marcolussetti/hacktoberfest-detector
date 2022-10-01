@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Hacktoberfest Detector",
     "version": "1.2.5",
-    "description": "Detect whether the repository has opted into Hacktoberfest.",
+    "description": "Detect whether the repository has opted into the 2021 Hacktoberfest.",
     "icons": {
         "96": "icons/icon-96.png",
         "48": "icons/icon-48.png"
@@ -25,7 +25,7 @@
             "id": "hacktoberfesttagdetector@marcolussetti.com"
         }
     },
-    "browser_action": {
+    "action": {
         "default_icon": {
             "16": "icons/icon-16.png",
             "32": "icons/icon-32.png"
