@@ -12,7 +12,9 @@ Alternatively, you can install it any beta releases, if required by running the 
 
 ### Chrome / Chromium
 
-Until it gets onto the Chrome Web Store (soon?), you will need to:
+Install from the Chrome Web Store: https://chrome.google.com/webstore/detail/hacktoberfest-detector/nnhdnknkgcgamopigjbadnmocnemhbin
+
+Alternatively, you can install any beta releases by:
 
 - Download this repository somewhere, as a folder
 - Browse to chrome://extensions/
